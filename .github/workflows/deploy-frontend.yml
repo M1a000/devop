@@ -1,14 +1,12 @@
 name: CI/CD Frontend
 
-# ============================================================
-# Trigger: Se activa con push en la rama deploy--
-# ============================================================
+
 on:
   push:
     branches:
       - main
     paths:
-      - 'front_despacho/**' # Cambia esto por el nombre real de tu carpeta
+      - 'front_despacho/**'
 
 
 env:
